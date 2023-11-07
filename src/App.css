@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-top: 50%;
+  margin: auto;
+  align-items: center;
+}
+
+#editor {
+  width: 50%;
+  height: 50vh;
+  padding: 20px;
+  font-size: 18px;
+  overflow: auto;
+  resize: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#preview{
+  width: 50%;
+  height: 50vh;
+  border-radius: 20px;
+  margin-left: 10px;
+  resize: none;
+  overflow: auto;
+  padding: 10px;
+  font-size: 18px;
+  background-color: lightgrey;
+
+}
+
+@media screen and (min-width: 786px) {
+
+  .container {
+    width: 80%;
+  }
+  
+}
